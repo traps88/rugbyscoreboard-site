@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+            <div class="container">
+                <div class="home">
+                    <h3>HOME</h3>
+                    <h1 class="home-counter" id="home-score">0</h1>
+                    <button id="try-btn-home" onclick="tryScoredHome()">Try +5</button>
+                    <button id="penalty-btn-home" onclick="penaltyScoredHome()">Penalty +3</button>
+                    <button id="fieldgoalg-btn-home" onclick="fieldGoalScoredHome()">Field Goal +3</button>
+                    <button id="conversion-btn-home" onclick="coversionScoredHome()">Conversion +2</button>
+                </div>
+                <div class="guest">
+                    <h3>GUEST</h3>
+                    <h1 class="guest-counter" id="guest-score">0</h1>
+                    <button id="try-btn-guest" onclick="tryScoredGuest()">Try +5</button>
+                    <button id="penalty-btn-guest" onclick="penaltyScoredGuest()">Penalty +3</button>
+                    <button id="fieldgoalg-btn-guest" onclick="fieldGoalScoredGuest()">Field Goal +3</button>
+                    <button id="conversion-btn-guest" onclick="coversionScoredGuest()">Conversion +2</button>
+                </div>
+            </div>         
+       
+        
+            
+        
+        <script src="index.js"></script>
+    </body>
+</html>
